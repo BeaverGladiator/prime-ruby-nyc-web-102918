@@ -1,4 +1,6 @@
 # Add  code here!
+require "pry"
+
 def prime?(integer)
   test_range = 1..integer
   numbers_array = test_range.to_a
@@ -9,7 +11,7 @@ def prime?(integer)
       divisible_integer_amount += 1 
     end 
   end
-  
+  binding.pry
   if divisible_integer_amount == 2 
     return true 
   else 

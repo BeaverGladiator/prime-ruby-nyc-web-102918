@@ -1,4 +1,5 @@
 # Add  code here!
 def prime?(integer)
-  if 
+  test_range = 1..integer
+  numbers_array = test_range.to_a
 end

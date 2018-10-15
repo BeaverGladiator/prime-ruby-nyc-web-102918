@@ -5,5 +5,5 @@ def prime?(integer)
   divisible_integer_amount = 0
   
   numbers_array.each do |number|
-    if integer
+    if integer / number 
 end

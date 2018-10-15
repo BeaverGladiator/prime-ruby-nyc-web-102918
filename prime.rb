@@ -10,5 +10,9 @@ def prime?(integer)
     end 
   end
   
-  
+  if divisible_integer_amount == 2 
+    return true 
+  else 
+    return false 
+  end
 end
